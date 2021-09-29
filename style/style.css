@@ -97,4 +97,37 @@ body {
   border: 0 solid transparent;
 }
 
+.fonctionnement {
+  width: 95%;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+.fonctionnement .block.fonctionnement {
+  display: flex;
+  justify-content: space-between;
+}
+.fonctionnement .menus {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.fonctionnement .phone {
+  background-color: #9356DC;
+  border-radius: 100px;
+  border: 1px solid #9356DC;
+  padding: 0 5px 0 5px;
+  color: white;
+  left: 15px;
+}
+.fonctionnement .clair {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  border: 1px solid #f6f6f6;
+  margin-left: 5px;
+  box-shadow: 5px 5px 10px #d4d4d4;
+  position: relative;
+}
+
 /*# sourceMappingURL=style.css.map */
