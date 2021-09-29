@@ -70,6 +70,12 @@ body{
     background-color: #f6f6f6;
     padding: 2rem 1rem;
 
+        .titre{
+            display: block;
+            font-size: 1.5em;;
+            font-weight: bold;
+        }
+
         menu{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -91,7 +97,14 @@ body{
         box-shadow: none;
         object-fit: cover;
     }
-
+        .badge{
+          background-color: #99E2D0;
+          color: #1b6150;
+          padding: .5rem;
+          border-radius: .125rem;
+          position: absolute;
+         right: .75rem;
+        }
    }
    .fonctionnement {
     width: 95%;

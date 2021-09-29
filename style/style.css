@@ -75,6 +75,11 @@ body {
   background-color: #f6f6f6;
   padding: 2rem 1rem;
 }
+.restaurant .titre {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
 .restaurant menu {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -95,6 +100,14 @@ body {
   border-radius: 1rem 1rem 0 0;
   box-shadow: none;
   object-fit: cover;
+}
+.carte .badge {
+  background-color: #99E2D0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  position: absolute;
+  right: 0.75rem;
 }
 
 .fonctionnement {
