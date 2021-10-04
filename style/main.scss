@@ -31,7 +31,7 @@ body{
 .search {
     display: flex;
     justify-content: center;
-    background-color: #f3f3f3;
+    background-color: #3c3b3b3b;
     font-size: 1.2rem;
     padding: 1.25rem 1rem;
     position: relative; 
@@ -55,20 +55,13 @@ body{
 }
     .btn{
         border-radius: 100px;
-        font-weight: 400;
-        font-size: 1.1rem;
-        color: #fff;
-        box-shadow: 2px 2px 5px 2px #dddddd;
-        background-color: #686868;
-        background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
         cursor: pointer;
         transition: 20s;
         padding: 15px 20px;
-
-        &:hover{
-         background: #9356DC;
-
-        }
+        text-align:center;
+        text-decoration: none;
+        background: rgb(219,12,246);
+        background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9))
     }
    }
    .restaurant{
