@@ -33,7 +33,7 @@ body {
 .search {
   display: flex;
   justify-content: center;
-  background-color: #f3f3f3;
+  background-color: #3c3b3b3b;
   font-size: 1.2rem;
   padding: 1.25rem 1rem;
   position: relative;
