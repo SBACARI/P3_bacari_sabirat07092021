@@ -37,7 +37,8 @@ body{
     position: relative; 
 }
     .text {
-      font-weight: 700; 
+      font-weight: 500;
+    
     }
     .search .icon {
      margin-right: 10px; 
@@ -88,6 +89,8 @@ body{
        position:relative;
        background: #fff;
        margin-bottom: 34px;
+       float: revert;
+       text-align: right;
 
        img{
         height: 10rem;

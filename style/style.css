@@ -40,7 +40,7 @@ body {
 }
 
 .text {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .search .icon {
@@ -92,6 +92,8 @@ body {
   position: relative;
   background: #fff;
   margin-bottom: 34px;
+  float: revert;
+  text-align: right;
 }
 .carte img {
   height: 10rem;
