@@ -50,9 +50,13 @@ body {
 .reserve {
   text-align: center;
   background-color: #fafafa;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 .reserve .title {
-  margin: 0;
+  font-weight: 900;
+  font-size: 2em;
 }
 .reserve menu {
   font-weight: 200;
@@ -60,13 +64,15 @@ body {
 }
 .reserve .btn {
   border-radius: 100px;
-  cursor: pointer;
   transition: 20s;
   padding: 15px 20px;
   text-align: center;
   text-decoration: none;
-  background: #db0cf6;
-  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
 
 .restaurant {
@@ -86,14 +92,15 @@ body {
 }
 
 .carte {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-radius: 1rem;
   color: inherit;
   position: relative;
   background: #fff;
   margin-bottom: 34px;
-  float: revert;
-  text-align: right;
+  width: 75%;
 }
 .carte img {
   height: 10rem;
@@ -176,7 +183,7 @@ span.number {
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: -12px;
+  left: 0;
 }
 
 footer {
