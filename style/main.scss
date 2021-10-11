@@ -137,26 +137,16 @@ body{
     justify-content: flex-start;
     align-items: center;
     box-shadow: 0 0 12px #999;
-    border-radius: 22px;
-    padding-left: 32px;
+    border-radius: 45px;
+    padding-left: 22px;
     position: relative;
     background: #f1f1f1;
 }
     .menus{
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-    menu.li{
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: baseline;
-        background-color: #f6f6f6;
-        box-shadow: 0 0 12px #999;
-        border-radius: 15px;
-        padding: 10px;
-        margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
     }
     .phone{
         background-color: #9356DC;
@@ -167,16 +157,7 @@ body{
         left: 15px;
 
     }
-    .clair{
-        display: flex;
-        align-items: center;
-        background-color: #f6f6f6;
-        border-radius: 15px;
-        border: 1px solid #f6f6f6;
-        margin-left: 5px;
-        box-shadow: 5px 5px 10px #d4d4d4;
-        position: relative;
-    }
+    
 }
 span.number{
     color: #fff;
