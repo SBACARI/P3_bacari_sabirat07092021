@@ -133,9 +133,16 @@ body {
   margin: auto;
   padding: 2rem 1rem;
 }
-.fonctionnement .block.fonctionnement {
+.fonctionnement .block {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 0 12px #999;
+  border-radius: 22px;
+  padding-left: 32px;
+  position: relative;
+  background: #f1f1f1;
 }
 .fonctionnement .menus {
   display: flex;
@@ -145,13 +152,13 @@ body {
 .fonctionnement menu.li {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  background: #f1f1f1;
+  justify-content: left;
+  align-items: baseline;
+  background-color: #f6f6f6;
   box-shadow: 0 0 12px #999;
-  border-radius: 22px;
-  position: relative;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
 }
 .fonctionnement .phone {
   background-color: #9356DC;
