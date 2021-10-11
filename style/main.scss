@@ -90,15 +90,12 @@ body{
         }
    }
    .carte{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
+       display: block;
        border-radius: 1rem;
        color: inherit;
-       position:relative;
        background: #fff;
-       margin-bottom: 34px;
-       width: 75%;
+       margin-bottom: 30px;
+       
 
        img{
         height: 10rem;
