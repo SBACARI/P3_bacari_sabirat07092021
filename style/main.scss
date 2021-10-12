@@ -123,10 +123,13 @@ main{
         .badge{
           background-color: #99E2D0;
           color: #1b6150;
-          padding: .5rem;
+          padding:.5rem;
           border-radius: .125rem;
+          font-weight: bold;
+          font-size: 14px;
           position: absolute;
-          right: .75rem;
+          margin-top: 15px;
+
         }
         .titre{
             margin: 0;
