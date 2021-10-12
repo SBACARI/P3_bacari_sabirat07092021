@@ -7,8 +7,10 @@ body{
 }
 
 main{
-    max-width: 400px;
+    min-width: 400px;
+    max-width: 1280px;
     margin-bottom: auto;
+    position: relative;
 }
 
 .container{
@@ -44,7 +46,7 @@ main{
     position: relative; 
 }
     .text {
-      font-weight: 500;
+      font-weight: 700;
     
     }
     .search .icon {
@@ -58,11 +60,10 @@ main{
     text-decoration: none;
 
     .title{
-    font-weight: 900;
-    font-size: 2em;
+    margin: 0;
 }
     menu{
-    font-weight: 200;
+    font-weight: 300;
     margin: 1.5rem 0;
 }
     .btn{
