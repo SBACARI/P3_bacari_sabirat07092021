@@ -106,6 +106,7 @@ main {
   color: inherit;
   background: #fff;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 .carte img {
   height: 12rem;
