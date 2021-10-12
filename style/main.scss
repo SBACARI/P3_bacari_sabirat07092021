@@ -145,6 +145,10 @@ main{
     position: relative;
     background: #f1f1f1;
     margin-bottom: 20px;
+    i{
+        margin-left: 5px;
+        margin-right: 15px;
+    }
 }
     .menus{
     display: flex;
@@ -160,24 +164,14 @@ main{
         border: 1px solid #9356DC;
         padding: 0 5px 0 5px;
         color: white;
-        left: 15px;
+        left: -6px;
+        position: absolute;
+
 
     }
     
 }
-span.number{
-    color: #fff;
-    background: #db7dff;
-    /* padding: 8px 12px; */
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 0;
-    }
+
 
 h2{
     display: block;
