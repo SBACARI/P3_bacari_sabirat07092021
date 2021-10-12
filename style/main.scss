@@ -20,8 +20,7 @@ main{
     flex-wrap: wrap;
 }
 .content{
-    display: flex;
-    width: 5rem;
+    
     justify-content: space-between;
 }
 .header {
@@ -85,6 +84,9 @@ main{
    .restaurant{
     background-color: #f6f6f6;
     padding: 2rem 1rem;
+    .container{
+        flex-direction: column;
+    }
 
         .titre{
             display: block;
