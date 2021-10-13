@@ -201,5 +201,15 @@ footer .list {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1rem;
 }
+.menusups sup {
+  max-width: 100%;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+.menusups sup title {
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
 
 /*# sourceMappingURL=style.css.map */
