@@ -124,10 +124,8 @@ main {
   color: #1b6150;
   padding: 0.5rem;
   border-radius: 0.125rem;
-  font-weight: bold;
-  font-size: 14px;
   position: absolute;
-  margin-top: 15px;
+  right: 0.75rem;
 }
 .carte .titre {
   margin: 0;
@@ -195,6 +193,13 @@ footer .list {
   display: flex;
   justify-content: space-evenly;
   padding-left: 0;
+}
+
+/*menu sup*/
+.menusups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
