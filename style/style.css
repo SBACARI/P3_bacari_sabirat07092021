@@ -153,9 +153,10 @@ main {
   background-color: #99E2D0;
   color: #1b6150;
   padding: 5px 10px 5px 10px;
-  border-radius: 0.125rem;
+  border-radius: 3px;
   position: absolute;
   right: 15px;
+  border: 1px solid #99E2D0;
 }
 .carte .titre {
   margin: 0;
@@ -219,6 +220,10 @@ h2 {
   justify-content: center;
   mix-blend-mode: lighten;
   transition-duration: 0.25s;
+}
+.heart i.fa {
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
 }
 
 footer {

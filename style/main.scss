@@ -9,29 +9,22 @@ body{
     color: #9356DC;
     animation: gauche 1s, color-oh 3s 1s both;
      }
-    
-    
     .my {
     color: #FF79DA;
     animation: haut 1s, color-my 3s 1s both;
     }
-    
     .food {
     color: #99E2D0;
     animation: bas 1s, color-food 3s 1s both;
     }
-    
     .point1 {
     color: #9356DC;
     animation: droite 1s, color-oh 3s 1s both;
     }
-    
-    
     .point2{
     color: #FF79DA;
     animation: droite 1s, color-my 3s 1s both;
     }
-    
     .point3 {
     color: #99E2D0;
     animation: droite 1s, color-food 3s 1s both;
@@ -155,9 +148,10 @@ main{
           background-color: #99E2D0;
           color: #1b6150;
           padding: 5px 10px 5px 10px;
-          border-radius: .125rem;
+          border-radius: 3px;
           position: absolute;
           right: 15px;
+          border: 1px solid #99E2D0;
           
           
         
@@ -225,6 +219,12 @@ h2{
     justify-content: center;
     mix-blend-mode: lighten;
     transition-duration: .25s;
+
+    i.fa{
+        background-image: linear-gradient(
+        0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+        cursor: pointer;
+    }
 }
 
 footer{
