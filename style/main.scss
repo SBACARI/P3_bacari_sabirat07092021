@@ -5,6 +5,37 @@ body{
     width: 100%;
     margin: 0%;
 }
+.oh {
+    color: #9356DC;
+    animation: gauche 1s, color-oh 3s 1s both;
+     }
+    
+    
+    .my {
+    color: #FF79DA;
+    animation: haut 1s, color-my 3s 1s both;
+    }
+    
+    .food {
+    color: #99E2D0;
+    animation: bas 1s, color-food 3s 1s both;
+    }
+    
+    .point1 {
+    color: #9356DC;
+    animation: droite 1s, color-oh 3s 1s both;
+    }
+    
+    
+    .point2{
+    color: #FF79DA;
+    animation: droite 1s, color-my 3s 1s both;
+    }
+    
+    .point3 {
+    color: #99E2D0;
+    animation: droite 1s, color-food 3s 1s both;
+    }
 
 main{
     min-width: 400px;
@@ -178,7 +209,6 @@ main{
         left: 4px;
         position: absolute;
     }
-    
 }
 h2{
     display: block;
@@ -186,6 +216,17 @@ h2{
     margin-left: 15px;
     padding: 30px 0 0 10px;
 }
+.heart{
+    background-color: #f6f6f6;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: lighten;
+    transition-duration: .25s;
+}
+
 footer{
     background-color: #353535;
     padding-bottom: 20px;
