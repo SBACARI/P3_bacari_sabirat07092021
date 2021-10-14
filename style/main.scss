@@ -47,6 +47,13 @@ main{
     
     justify-content: space-between;
 }
+.cartecontent{
+ display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 15px 15px;
+
+}
 .header {
     display: block;
     text-align: center; 
@@ -132,6 +139,7 @@ main{
        background: #fff;
        margin-bottom: 30px;
        text-decoration: none;
+       position: relative;
        
 
        img{
@@ -200,7 +208,7 @@ main{
         border: 1px solid #9356DC;
         padding: 0 5px 0 5px;
         color: white;
-        left: 4px;
+        left: -4px;
         position: absolute;
     }
 }
