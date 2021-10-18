@@ -253,7 +253,7 @@ footer .list {
 }
 
 /*menu sup*/
-.menusups {
+.plat-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -261,71 +261,103 @@ footer .list {
   margin-left: -15px;
   margin-right: -15px;
 }
-.menusups sup {
-  max-width: 100%;
-  padding: 0 1rem;
+.plat-list .type {
+  display: block;
+  flex: 3;
+  min-height: 150px;
   overflow: hidden;
 }
-.menusups sup title {
-  font-family: "Shrikand", "cursive";
+.plat-list .type h2 {
+  display: block;
+  font-weight: 100;
+  font-size: 16px;
+  margin: 25px 20px;
+  width: 35px;
+  height: 2px;
+  color: #2c2c2c;
+  bottom: -4px;
 }
-
-menuitem {
-  display: flex;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 0.75rem;
-  margin: 1rem 0;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  cursor: pointer;
-  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
-  animation-fill-mode: both;
-  transform: scale(0);
-  max-width: 100%;
+.plat-list .type h2 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0px 0px;
 }
-menuitem .delay {
-  animation-delay: 1s;
+.plat-list .type h2 h4 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #2c2c2c;
+  margin: 2px -50px 10px 0px;
 }
-menuitem header {
+.plat-list .type h2 title {
+  text-align: left;
+  font-family: "Shrikhand";
+  font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0px;
+  color: black;
+}
+.plat-list .load {
+  animation: 1.5s linear;
+}
+.plat-list .load .spinner {
+  width: 40px;
+  height: 40px;
+  margin: 30px;
+  position: absolute;
+}
+.plat-list .assiette {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 20px;
-  align-items: baseline;
-}
-menuitem title {
-  font-family: "Shrikhand";
-  font-weight: 500;
-  font-size: 20px;
-  color: black;
-  margin: 20px 0px;
-}
-menuitem .description {
-  white-space: nowrap;
+  box-shadow: 2px 2px 5px 2px #dddddd;
+  background-color: white;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 0px 20px 0px 10px;
   overflow: hidden;
-  margin: 0;
-  text-overflow: ellipsis;
+  animation: box-appear 2.5;
 }
-menuitem .price {
+.plat-list .assiette .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  font-weight: bold;
+}
+.plat-list .assiette .description .price {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   font-weight: bold;
   padding-left: 5px;
 }
-menuitem .validation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #99E2D0;
-  transition-duration: 1s;
-}
 
 .main-section {
   background-color: #f6f6f6;
   border-radius: 50px 50px 0px 0px;
   margin-top: -25px;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-right: 25px;
+}
+span .appear {
+  display: none;
+  background-color: #99E2D0;
+}
+
+.fas.fa-check {
+  background-color: white;
+  margin: 35%;
+  border-radius: 50%;
+  color: #99e2d0;
+  padding: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

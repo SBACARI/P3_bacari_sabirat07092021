@@ -258,7 +258,7 @@ footer{
 
 /*menu sup*/
 
-.menusups{
+.plat-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -266,55 +266,79 @@ footer{
     margin-left: -15px;
     margin-right: -15px;
 
-    sup{
-        max-width: 100%;
-        padding: 0 1rem;
+    .type{
+        display: block;
+        flex: 3;
+        min-height: 150px;
         overflow: hidden;
 
-        title{
-            font-family: "Shrikand","cursive";
+        h2{
+            display: block;
+            font-weight: 100;
+            font-size: 16px;
+            margin: 25px 20px;
+            width: 35px;
+            height: 2px;
+            color: #2c2c2c;
+            bottom: -4px;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 600;
+                color: black;
+                margin: 15px 0px 0px;
+                }
+
+                h4 {
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #2c2c2c;
+                    margin: 2px -50px 10px 0px;
+                    }
+
+            title{
+                text-align: left;
+                font-family: "Shrikhand";
+                font-size: 25px;
+                font-weight: 500;
+                margin: 20px 0px;
+                color: black;
+            }
+            
         }
     }
 
-}
-menuitem{
-    display: flex;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    margin: 1rem 0;
-    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-    overflow: hidden;
-    cursor: pointer;
-    animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
-    animation-fill-mode: both;
-    transform: scale(0);
-    max-width: 100%;
 
-    .delay{
-        animation-delay: 1s;
+
+    .load{
+    animation:1.5s linear;
+        .spinner{
+            width: 40px;
+            height: 40px;
+            margin: 30px;
+            position: absolute;
+        }
     }
-    header{
+    .assiette{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-right: 20px;
-        align-items: baseline;
-    }
-
-    title{
-        font-family: "Shrikhand";
-        font-weight: 500;
-        font-size: 20px;
-        color: black;
-        margin: 20px 0px;
-    }
-    .description{
-        white-space: nowrap;
+        box-shadow: 2px 2px 5px 2px #dddddd;
+        background-color: white;
+        margin: 15px;
+        border-radius: 15px;
+        padding: 0px 20px 0px 10px;
         overflow: hidden;
-        margin: 0;
-        text-overflow: ellipsis;
-    }
+        animation: box-appear 2.5;
+
+    .description{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        font-weight: bold;
+    
     .price{
         display: flex;
         justify-content: flex-end;
@@ -322,17 +346,33 @@ menuitem{
         font-weight: bold;
         padding-left: 5px;
     }
-    .validation{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #99E2D0;
-        transition-duration: 1s;
-    }
+        }
+}
 
 }
 .main-section{
     background-color: #f6f6f6;
     border-radius: 50px 50px 0px 0px;
     margin-top: -25px;
+}
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 25px;
+
+.appear{
+    display: none;
+    background-color: #99E2D0;
+
+}
+    }
+
+.fas.fa-check {
+    background-color: white;
+    margin: 35%;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 3px;
 }
