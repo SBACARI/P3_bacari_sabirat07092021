@@ -374,3 +374,21 @@ span {
     color: #99e2d0;
     padding: 3px;
 }
+
+.order-menu {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 5px 0;
+
+    .order{
+        border-radius: 100px;
+        background-color: #686868;
+        color: #fff;
+        background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+        box-shadow:5px 5px 10px;
+        cursor: pointer;
+        transition: transform ease-in-out .25s;
+        border: 0;
+    }
+    }
