@@ -60,12 +60,18 @@ main{
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
     padding: 1rem;
     position: relative;
+    background-color: #fff;
 
         .logo{
          font-family: "Shrikhand", "cursive"; 
          text-align: center;
          padding-top: 10px;
          padding-bottom: 10px;
+         width: 100%;
+        }
+        img{
+            width: 100%;
+            height: 300px;
         }
 }
  
@@ -88,9 +94,9 @@ main{
     }
    .reserve {
     text-align:center;
-    background-color: #fafafa;
+    background-color: #f7f7f7 ;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 10px 20px 40px;
     text-decoration: none;
 
     .title{
@@ -162,8 +168,10 @@ main{
           padding: 5px 10px 5px 10px;
           border-radius: 3px;
           position: absolute;
-          right: 15px;
+          right: 0px;
           border: 1px solid #99E2D0;
+          top: 8px;
+
 
     }
         .titre{
@@ -178,6 +186,7 @@ main{
     width: 95%;
     margin: auto;
     padding: 2rem 1rem;
+    background: #fff;
 
     .block {
     display: flex;
@@ -189,6 +198,7 @@ main{
     padding-left: 22px;
     position: relative;
     margin-bottom: 20px;
+    background: #fff;
 
     i{
         margin-left: 5px;
@@ -217,7 +227,7 @@ h2{
     display: block;
     font-size: 2em;
     margin-left: 15px;
-    padding: 30px 0 0 10px;
+    
 }
 .heart{
     background-color: #f6f6f6;
@@ -258,11 +268,10 @@ footer{
 
 .plat-list{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    padding-bottom: 100px;
-    margin-left: -15px;
-    margin-right: -15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
 
     .type{
         display: block;
@@ -351,14 +360,14 @@ footer{
 .main-section{
     background-color: #f6f6f6;
     border-radius: 50px 50px 0px 0px;
-    margin-top: -25px;
+    margin-top: -90px;
 }
-span {
+span.btn {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    margin-right: 25px;
+    margin-right: 4px;
 
 .appear{
     display: none;
