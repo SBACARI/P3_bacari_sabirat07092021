@@ -69,10 +69,11 @@ main{
          padding-bottom: 10px;
          width: 100%;
         }
-        img{
+        .img{
             width: 100%;
             height: 300px;
         }
+        
 }
  
 .search {
@@ -266,6 +267,8 @@ footer{
 
 /*menu sup*/
 
+
+
 .plat-list{
     display: flex;
     flex-direction: column;
@@ -293,10 +296,10 @@ footer{
                 font-size: 18px;
                 font-weight: 600;
                 color: black;
-                margin: 15px 0px 0px;
+                margin: 4px;
                 }
 
-                h4 {
+                p {
                     font-size: 15px;
                     font-weight: 300;
                     color: #2c2c2c;
@@ -315,8 +318,6 @@ footer{
         }
     }
 
-
-
     .load{
     animation:1.5s linear;
         .spinner{
@@ -328,7 +329,7 @@ footer{
     }
     .assiette{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         justify-content: space-between;
         box-shadow: 2px 2px 5px 2px #dddddd;
         background-color: white;
