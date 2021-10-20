@@ -224,12 +224,6 @@ main {
   position: absolute;
 }
 
-h2 {
-  display: block;
-  font-size: 2em;
-  margin-left: 15px;
-}
-
 .heart {
   background-color: #f6f6f6;
   position: absolute;
@@ -294,12 +288,12 @@ footer .list {
   color: #2c2c2c;
   margin: 2px -50px 10px 0px;
 }
-.plat-list .type h2 title {
+.plat-list .type h2 .title {
   text-align: left;
   font-family: "Shrikhand";
   font-size: 25px;
   font-weight: 500;
-  margin: 20px 0px;
+  margin: 0px;
   color: black;
 }
 .plat-list .load {
