@@ -316,6 +316,7 @@ footer .list {
   padding: 0px 20px 0px 10px;
   overflow: hidden;
   animation: box-appear 2.5;
+  align-items: center;
 }
 .plat-list .assiette .description {
   display: flex;
