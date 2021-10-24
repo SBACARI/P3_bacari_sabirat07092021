@@ -258,7 +258,9 @@ footer .list {
 .plat-list {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: 20px;
+  padding-bottom: 100px;
 }
 .plat-list .type {
   display: block;
