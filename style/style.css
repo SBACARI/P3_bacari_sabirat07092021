@@ -6,36 +6,6 @@ body {
   margin: 0%;
 }
 
-.oh {
-  color: #9356DC;
-  animation: gauche 1s, color-oh 3s 1s both;
-}
-
-.my {
-  color: #FF79DA;
-  animation: haut 1s, color-my 3s 1s both;
-}
-
-.food {
-  color: #99E2D0;
-  animation: bas 1s, color-food 3s 1s both;
-}
-
-.point1 {
-  color: #9356DC;
-  animation: droite 1s, color-oh 3s 1s both;
-}
-
-.point2 {
-  color: #FF79DA;
-  animation: droite 1s, color-my 3s 1s both;
-}
-
-.point3 {
-  color: #99E2D0;
-  animation: droite 1s, color-food 3s 1s both;
-}
-
 main {
   min-width: 400px;
   max-width: 1280px;
@@ -78,7 +48,6 @@ main {
 }
 .header .img {
   width: 100%;
-  height: 300px;
 }
 
 .search {
@@ -180,6 +149,7 @@ main {
 .carte .titre {
   margin: 0;
   margin-bottom: 0.25rem;
+  padding: 10px;
 }
 .carte .soustitre {
   margin: 0;
@@ -255,6 +225,15 @@ footer .list {
 }
 
 /*menu sup*/
+.arrow {
+  position: absolute;
+  top: 40%;
+}
+
+.palette {
+  max-width: 100%;
+}
+
 .plat-list {
   display: flex;
   flex-direction: column;
@@ -347,7 +326,7 @@ span.btn {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin-right: 4px;
+  margin-right: 25px;
 }
 span.btn .appear {
   display: none;
