@@ -12,17 +12,6 @@ main{
     margin-bottom: auto;
     position: relative;
 }
-
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.content{
-    
-    justify-content: space-between;
-}
 .cartecontent{
  display: flex;
    justify-content: space-between;
@@ -145,7 +134,7 @@ main{
           padding: 5px 10px 5px 10px;
           border-radius: 3px;
           position: absolute;
-          right: 15px;
+          right: 20px;
           border: 1px solid #99E2D0;
           top: 8px;
 
