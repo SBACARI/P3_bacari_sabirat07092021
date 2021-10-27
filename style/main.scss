@@ -145,7 +145,7 @@ main{
           padding: 5px 10px 5px 10px;
           border-radius: 3px;
           position: absolute;
-          right: 0px;
+          right: 15px;
           border: 1px solid #99E2D0;
           top: 8px;
 
@@ -241,13 +241,21 @@ footer{
 /*menu sup*/
 .arrow{
     position: absolute;
-    top: 40%;
+    left: 12px;
 }
 
 .palette{
     max-width: 100%;
 }
-
+.gout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px 5px 25px;
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+}
 .plat-list{
     display: flex;
     flex-direction: column;
@@ -272,7 +280,15 @@ footer{
             height: 2px;
             color: #2c2c2c;
             bottom: -4px;
-          
+
+          .trait{
+            background-color: #99e2d0;
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            bottom: -4px;
+
+          }
 
             h3 {
                 font-size: 18px;
