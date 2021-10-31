@@ -7,10 +7,7 @@ body {
 }
 
 main {
-  min-width: 400px;
-  max-width: 1280px;
   margin-bottom: auto;
-  position: relative;
 }
 
 .cartecontent {
@@ -236,8 +233,6 @@ footer .list {
 .plat-list {
   display: flex;
   flex-direction: column;
-  margin-left: -20px;
-  margin-right: 20px;
   padding-bottom: 100px;
 }
 .plat-list .type {
@@ -245,6 +240,7 @@ footer .list {
   flex: 3;
   min-height: 150px;
   overflow: hidden;
+  padding: 0px 10px;
 }
 .plat-list .type h2 {
   display: block;
@@ -255,6 +251,13 @@ footer .list {
   height: 2px;
   color: #2c2c2c;
   bottom: -4px;
+}
+.plat-list .type h2::after {
+  content: " ";
+  display: block;
+  background-color: #99e2d0;
+  height: 3px;
+  width: 50px;
 }
 .plat-list .type h2 .trait {
   background-color: #99e2d0;
@@ -298,33 +301,30 @@ footer .list {
   justify-content: space-between;
   box-shadow: 2px 2px 5px 2px #dddddd;
   background-color: white;
-  margin: 15px;
+  margin-bottom: 15px;
   border-radius: 15px;
-  padding: 0px 20px 0px 10px;
+  padding: 0px 0px 0px 10px;
   overflow: hidden;
   animation: box-appear 2.5;
   align-items: center;
 }
-.plat-list .assiette .description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
-  font-weight: bold;
+.plat-list .assiette .appear {
+  display: none;
+  position: relative;
+  width: 100px;
+  background-color: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  margin: 0px;
 }
-.plat-list .assiette .description .price {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  font-weight: bold;
-  padding-left: 5px;
+.plat-list .assiette:hover .appear {
+  display: block;
 }
 
 .main-section {
   background-color: #f6f6f6;
   border-radius: 50px 50px 0px 0px;
   margin-top: -90px;
+  position: relative;
 }
 
 span.btn {
@@ -362,6 +362,20 @@ span.btn .appear {
   cursor: pointer;
   transition: transform ease-in-out 0.25s;
   border: 0;
+}
+
+.far.fa-heart.hiddenf {
+  margin-top: -36px;
+  position: absolute;
+  margin-left: 85%;
+  opacity: 0;
+  font-size: 26px;
+  -webkit-text-stroke: 1px white;
+  transition: 0.4s ease-out;
+  background: linear-gradient(210deg, #9356dc, #9356dc, #9356dc, orange, orange) right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 0%;
 }
 
 /*# sourceMappingURL=style.css.map */
