@@ -369,7 +369,6 @@ span.btn {
   -webkit-text-stroke: 1px white;
   transition: 0.4s ease-out;
   background: linear-gradient(210deg, #9356dc, #9356dc, #9356dc, orange, orange) right;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 0%;
 }
