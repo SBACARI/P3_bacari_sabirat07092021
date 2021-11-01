@@ -195,17 +195,17 @@ main{
     
 }
 .fa-heart{
-    
+    position: relative;
 
     i.fa{
         background-image: linear-gradient(
         0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
         cursor: pointer;
-    }
+    
     &:hover{
         &::after {
             content: "\f004";
-            font-family: "Font Awesome 5 Free";
+            font-family: "Font Awesome 5 Pro";
             font-weight: 900;
             position: absolute;
             top: 0;
@@ -223,6 +223,7 @@ main{
             opacity: 1;
             animation: favorite 250ms linear forwards;
           }
+        }
     }
 }
 
