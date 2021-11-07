@@ -7,5 +7,6 @@
     "sass": "sass ./style/main.scss:./style/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
