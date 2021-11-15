@@ -254,11 +254,7 @@ main {
 .fa-heart {
   position: relative;
 }
-.fa-heart i.fa {
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-}
-.fa-heart i.fa:hover::after {
+.fa-heart:hover::after {
   content: "\f004";
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
