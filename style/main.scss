@@ -406,9 +406,7 @@ footer{
         }
     }
     .assiette{
-        display:flex;
-        flex-direction:row;
-        justify-content: space-between;
+        position: relative;
         box-shadow: 2px 2px 5px 2px #dddddd;
         background-color: white;
         margin-bottom: 15px;
@@ -416,23 +414,38 @@ footer{
         padding: 0px 0px 0px 10px;
         overflow: hidden;
         animation: box-appear 2.5;
+        
+
+        .assiette2{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
         align-items: center;
+        width: 100%;
+        transition: width 1s;
+
+        
+        }
     
         
         .appear{
-            display: none;
-            position: relative;
+            position: absolute;
             width: 0px;
             background-color:#99E2D0;
             border-radius: 0 15px 15px 0;
-            margin: 0px;
-            transition: width 1s; 
+            right: -40px;
+            top: 0px;
+            transition: width 1s, right 1s; 
 
         }
         &:hover {
             .appear{
                 display: block;
-                width: 100px;
+                width: 180px;
+                right: 0px;
+            }
+            .assiette2{
+                width: calc(100% - 180px);
             }
         }
 }
