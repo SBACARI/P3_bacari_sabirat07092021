@@ -427,17 +427,4 @@ span.btn {
   padding: 15px 50px;
 }
 
-.far.fa-heart:hover {
-  margin-top: -36px;
-  position: absolute;
-  margin-left: 85%;
-  opacity: 0;
-  font-size: 26px;
-  -webkit-text-stroke: 1px white;
-  transition: 0.4s ease-out;
-  background: linear-gradient(210deg, #9356dc, #9356dc, #9356dc, orange, orange) right;
-  -webkit-text-fill-color: transparent;
-  background-size: 0%;
-}
-
 /*# sourceMappingURL=style.css.map */
