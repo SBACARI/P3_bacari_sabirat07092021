@@ -223,10 +223,10 @@ main {
   margin-bottom: 20px;
   background: #f7f7f7;
 }
-.fonctionnement .block .block:hover {
+.fonctionnement .block:hover ::after {
   color: rgba(255, 121, 218, 0.9);
 }
-.fonctionnement .block .block:hover i {
+.fonctionnement .block:hover ::after i {
   margin-left: 5px;
   margin-right: 15px;
 }

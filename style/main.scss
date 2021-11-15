@@ -233,15 +233,17 @@ main{
     margin-bottom: 20px;
     background: #f7f7f7;
 
-    .block:hover{
+    &:hover{
+        ::after{ 
     color: rgba(255, 121, 218, 0.9) ;
     
-
     i{
         margin-left: 5px;
         margin-right: 15px;
+ 
+    }   
+ }
     }
-}
 }
     .menus{
     display: flex;
