@@ -417,19 +417,22 @@ footer{
         overflow: hidden;
         animation: box-appear 2.5;
         align-items: center;
+    
         
         .appear{
             display: none;
             position: relative;
-            width: 100px;
+            width: 0px;
             background-color:#99E2D0;
             border-radius: 0 15px 15px 0;
             margin: 0px;
+            transition: width 1s; 
 
         }
         &:hover {
             .appear{
                 display: block;
+                width: 100px;
             }
         }
 }
@@ -466,6 +469,3 @@ span.btn {
        margin: 60px 60px 20px 60px;
        padding: 15px 50px;
 }
-
-
- 

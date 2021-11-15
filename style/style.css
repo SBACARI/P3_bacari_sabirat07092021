@@ -387,13 +387,15 @@ footer .list {
 .plat-list .assiette .appear {
   display: none;
   position: relative;
-  width: 100px;
+  width: 0px;
   background-color: #99E2D0;
   border-radius: 0 15px 15px 0;
   margin: 0px;
+  transition: width 1s;
 }
 .plat-list .assiette:hover .appear {
   display: block;
+  width: 100px;
 }
 
 .main-section {
