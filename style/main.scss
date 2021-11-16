@@ -474,6 +474,9 @@ span.btn {
     border-radius: 50%;
     color: #99e2d0;
     padding: 3px;
+    transform: rotate(-180deg);
+    transition: transform .0s .5s ease-in-out;
+
 }
 
 
