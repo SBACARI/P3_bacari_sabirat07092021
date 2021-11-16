@@ -68,8 +68,6 @@ body{
     }
 }
    
-
-  
 main{
 
     margin-bottom: auto;
@@ -232,19 +230,15 @@ main{
     position: relative;
     margin-bottom: 20px;
     background: #f7f7f7;
-
-    &:hover{
-        ::after{ 
-    color: rgba(255, 121, 218, 0.9) ;
     
     i{
         margin-left: 5px;
         margin-right: 15px;
- 
     }   
  }
+    .rose{
+        background-color: #f2eafb;
     }
-}
     .menus{
     display: flex;
     flex-direction: column;
@@ -474,12 +468,10 @@ span.btn {
     border-radius: 50%;
     color: #99e2d0;
     padding: 3px;
-    transform: rotate(-180deg);
+    transform: rotate(-0deg);
     transition: transform .0s .5s ease-in-out;
 
 }
-
-
     .order{
         border-radius: 30px 30px 30px 30px;
         transition: 20s;
@@ -494,4 +486,19 @@ span.btn {
         0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
         cursor: pointer;
         box-shadow: 2px 2px 5px 2px;
+        align-items: center;
+        
+        &:hover{
+            ::after{
+                display: block;
+                content: "";
+                opacity: 0;
+                position: absolute;
+                bottom: 0;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 2;
+            }
         }
+    }

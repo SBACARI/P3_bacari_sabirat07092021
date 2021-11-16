@@ -223,12 +223,12 @@ main {
   margin-bottom: 20px;
   background: #f7f7f7;
 }
-.fonctionnement .block:hover ::after {
-  color: rgba(255, 121, 218, 0.9);
-}
-.fonctionnement .block:hover ::after i {
+.fonctionnement .block i {
   margin-left: 5px;
   margin-right: 15px;
+}
+.fonctionnement .rose {
+  background-color: #f2eafb;
 }
 .fonctionnement .menus {
   display: flex;
@@ -428,7 +428,7 @@ span.btn {
   border-radius: 50%;
   color: #99e2d0;
   padding: 3px;
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
   transition: transform 0s 0.5s ease-in-out;
 }
 
@@ -445,6 +445,18 @@ span.btn {
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   box-shadow: 2px 2px 5px 2px;
+  align-items: center;
+}
+.order:hover ::after {
+  display: block;
+  content: "";
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
