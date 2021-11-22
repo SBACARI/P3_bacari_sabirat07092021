@@ -424,11 +424,15 @@ span.btn {
 
 .fas.fa-check {
   background-color: white;
+  flex: 0 0 auto;
   margin: 35%;
   border-radius: 50%;
+  left: 100%;
+  height: 100%;
+  width: calc(var( --spacing) *3.5);
   color: #99e2d0;
   padding: 3px;
-  transform: rotate(0deg);
+  transform: rotate(-180deg);
   transition: transform 0s 0.5s ease-in-out;
 }
 
