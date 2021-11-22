@@ -227,7 +227,7 @@ main {
   margin-left: 5px;
   margin-right: 15px;
 }
-.fonctionnement .rose {
+.fonctionnement .rose:hover {
   background-color: #f2eafb;
 }
 .fonctionnement .menus {
@@ -309,7 +309,6 @@ footer .list {
 .plat-list {
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
 }
 .plat-list .type {
   display: block;
@@ -324,7 +323,6 @@ footer .list {
   font-size: 16px;
   margin: 25px 20px;
   width: 35px;
-  height: 2px;
   color: #2c2c2c;
   bottom: -4px;
 }
@@ -390,6 +388,9 @@ footer .list {
   transition: width 1s;
 }
 .plat-list .assiette .appear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 0px;
   background-color: #99E2D0;
@@ -397,11 +398,14 @@ footer .list {
   right: -40px;
   top: 0px;
   transition: width 1s, right 1s;
+  height: 100%;
 }
 .plat-list .assiette:hover .appear {
-  display: block;
   width: 180px;
   right: 0px;
+}
+.plat-list .assiette:hover .appear .fas.fa-check {
+  transform: rotate(0deg);
 }
 .plat-list .assiette:hover .assiette2 {
   width: calc(100% - 180px);
@@ -424,12 +428,7 @@ span.btn {
 
 .fas.fa-check {
   background-color: white;
-  flex: 0 0 auto;
-  margin: 35%;
   border-radius: 50%;
-  left: 100%;
-  height: 100%;
-  width: calc(var( --spacing) *3.5);
   color: #99e2d0;
   padding: 3px;
   transform: rotate(-180deg);
