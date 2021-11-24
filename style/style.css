@@ -288,9 +288,9 @@ footer .list {
 
 /*menu sup*/
 .arrow {
-  position: absolute;
-  left: 12px;
+  margin-left: 50px;
   top: 30px;
+  position: absolute;
 }
 
 .palette {
