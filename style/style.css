@@ -292,6 +292,7 @@ footer .list {
   left: 10px;
   top: 20px;
   position: absolute;
+  color: black;
 }
 
 .palette {
@@ -388,6 +389,9 @@ footer .list {
   align-items: center;
   width: 100%;
   transition: width 1s;
+}
+.plat-list .assiette .prix {
+  margin-right: 15px;
 }
 .plat-list .assiette .appear {
   display: flex;

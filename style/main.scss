@@ -314,6 +314,7 @@ footer{
    left: 10px;
    top: 20px;
    position: absolute;
+   color: black;
 }
 
 .palette{
@@ -420,11 +421,12 @@ footer{
         align-items: center;
         width: 100%;
         transition: width 1s;
-
         
         }
     
-        
+        .prix{
+            margin-right: 15px;
+        }
         .appear{
             display: flex;
             justify-content:center ;
