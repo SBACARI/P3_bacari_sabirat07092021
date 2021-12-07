@@ -382,7 +382,7 @@ footer .list {
   overflow: hidden;
   animation: box-appear 2.5;
 }
-.plat-list .assiette .assiette2 {
+.plat-list .assiette .assiette2:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
