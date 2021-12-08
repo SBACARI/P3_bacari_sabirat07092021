@@ -382,7 +382,7 @@ footer .list {
   overflow: hidden;
   animation: box-appear 2.5;
 }
-.plat-list .assiette .assiette2:hover {
+.plat-list .assiette .assiette2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -463,6 +463,64 @@ span.btn {
   right: 0;
   left: 0;
   z-index: 2;
+}
+
+.assiette {
+  transform: translateY(0px);
+  -webkit-animation: fadein 250ms forwards;
+  animation: fadein 250ms forwards;
+}
+
+.assiette2 {
+  transform: translateY(0px);
+  -webkit-animation: fadein 200ms forwards;
+  animation: fadein 200ms forwards;
+}
+
+.assiette2:nth-child(1) {
+  -webkit-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.assiette2:nth-child(2) {
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.assiette2:nth-child(3) {
+  -webkit-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.assiette2:nth-child(4) {
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.assiette2:nth-child(5) {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
