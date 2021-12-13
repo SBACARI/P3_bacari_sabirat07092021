@@ -392,6 +392,7 @@ footer .list {
 }
 .plat-list .assiette .prix {
   margin-right: 15px;
+  color: black;
 }
 .plat-list .assiette .appear {
   display: flex;
