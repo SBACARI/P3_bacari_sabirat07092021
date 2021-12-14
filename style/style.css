@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 body {
   background: #f1f1f1;
-  font-family: "Roboto";
   width: 100%;
   margin: 0%;
 }
@@ -110,7 +109,6 @@ main {
 
 .text {
   font-weight: 700;
-  font-family: "Roboto";
 }
 
 .search .icon {
@@ -277,6 +275,10 @@ footer {
   background-color: #353535;
   padding-bottom: 20px;
   color: white;
+  cursor: pointer;
+}
+footer a {
+  text-decoration: none;
 }
 footer .logo {
   display: flex;
