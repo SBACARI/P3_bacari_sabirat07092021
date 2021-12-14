@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 body {
   background: #f1f1f1;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto;
   width: 100%;
   margin: 0%;
 }
@@ -159,6 +159,7 @@ main {
   display: block;
   font-size: 1.5em;
   font-weight: bold;
+  font-family: Shrikhand;
 }
 .restaurant menu {
   display: grid;
@@ -344,8 +345,9 @@ footer .list {
   bottom: -4px;
 }
 .plat-list .type h2 h3 {
+  font-family: Roboto;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 300;
   color: black;
   margin: 4px;
 }
@@ -355,11 +357,11 @@ footer .list {
   color: #2c2c2c;
   margin: 2px -50px 10px 0px;
 }
-.plat-list .type h2 .title {
+.plat-list .type h2 .titre .h1 {
   text-align: left;
   font-family: "Shrikhand";
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 15px;
   color: black;
 }
@@ -447,13 +449,14 @@ span.btn {
   font-size: 20px;
   font-weight: 500;
   display: block;
-  margin: auto;
+  margin: 30 px auto;
   padding: 15px;
   border: 1px solid transparent;
   border-radius: 100px;
   background: linear-gradient(to left top, #9356DC, #FF79DA);
   color: white;
   box-shadow: 0 0 10px #d4d4d4;
+  cursor: pointer;
 }
 .order:hover ::after {
   display: block;
