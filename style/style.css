@@ -110,6 +110,7 @@ main {
 
 .text {
   font-weight: 700;
+  font-family: "Roboto";
 }
 
 .search .icon {
@@ -158,7 +159,6 @@ main {
 .restaurant .titre {
   display: block;
   font-size: 1.5em;
-  font-weight: bold;
   font-family: "Shrikhand";
 }
 .restaurant menu {
@@ -201,6 +201,7 @@ main {
   margin: 0;
   margin-bottom: 0.25rem;
   padding: 10px;
+  font-family: "Shrikhand";
 }
 .carte .soustitre {
   margin: 0;
