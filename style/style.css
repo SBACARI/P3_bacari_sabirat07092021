@@ -78,7 +78,9 @@ main {
 }
 
 .header {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   padding: 1rem;
@@ -301,12 +303,13 @@ footer .list {
   color: black;
 }
 
-.logosup {
-  font-family: "Shrikand";
+.logosup h2 {
+  font-family: "Shrikhand";
   font-weight: 500px;
   font-size: 41px;
   color: black;
   text-decoration: none;
+  margin: 0;
 }
 
 .palette {
