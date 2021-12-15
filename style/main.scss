@@ -357,9 +357,6 @@ a{
     display: flex;
     flex-direction: column;
 
-    
-    
-
     .type{
         display: block;
         flex: 3;
@@ -511,9 +508,11 @@ span.btn {
 
 }
     .order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 20px;
         font-weight: 500;
-        
         margin: 30 px auto;
         padding: 15px;
         border: 1px solid transparent;
@@ -522,9 +521,6 @@ span.btn {
         color: white;
         box-shadow: 0 0 10px #d4d4d4;
         cursor: pointer;
-        display: inline-block;
-
-        
         
         &:hover{
             ::after{
