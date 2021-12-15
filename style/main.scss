@@ -3,6 +3,7 @@ body{
     background: #f1f1f1;
     width: 100%;
     margin: 0%;
+    font-family: "Roboto";
 }
 
 .load-wrapper{
@@ -307,7 +308,9 @@ a{
     
     .logo{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    font-family: "Shrikhand";
+    
     }
 
     .list{
