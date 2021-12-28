@@ -407,10 +407,14 @@ a{
                 }
 
                 p {
-                    font-size: 10px;
-                    font-weight: 100;
+                    font-size: 15px;
+                    font-weight: 300;
                     color: #2c2c2c;
                     margin: 2px -50px 10px 0px;
+                    margin-block-start: 1.33em;
+                    margin-block-end: 1.33em;
+                    margin-block-start: 0px;
+                    margin-inline-end: 0px;
                     }
 
             .title{
@@ -442,7 +446,7 @@ a{
         background-color: white;
         margin-bottom: 15px;
         border-radius: 15px;
-        padding: 0px 0px 0px 10px;
+        padding: 0px 30px 0px 10px;
         overflow: hidden;
         animation: box-appear 2.5;
         
@@ -452,15 +456,15 @@ a{
         flex-direction:row;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+        width: 65%;
         transition: width 1s;
         
         }
     
         .prix{
-            margin-right: 15px;
+            margin-right: 0px;
             color: black;
-            font-weight: 600;
+            font-weight: 500;
         }
         .appear{
             display: flex;
