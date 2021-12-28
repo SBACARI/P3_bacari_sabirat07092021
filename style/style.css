@@ -281,6 +281,12 @@ footer {
   color: white;
   cursor: pointer;
 }
+footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 4px;
+}
 footer a {
   text-decoration: none;
   color: white;
@@ -293,7 +299,9 @@ footer .logo {
 footer .list {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 0;
+  padding: 0px;
+  margin: 5px;
+  list-style: none;
 }
 
 /*menu sup*/
@@ -466,15 +474,16 @@ span.btn {
 }
 
 .search2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
   background-color: #f6f6f6;
   padding: 30px 0 60px 0;
 }
 
 .order {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+  align-items: flex-start;
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
   margin: 70px 70px 20px 70px;
@@ -488,8 +497,7 @@ span.btn {
   position: absolute;
   height: 50px;
   width: 30%;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-top: 0em;
 }
 .order:hover ::after {
   display: block;
