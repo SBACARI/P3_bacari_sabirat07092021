@@ -539,33 +539,33 @@ span.btn {
 
 .assiette2 {
   transform: translateY(0px);
-  -webkit-animation: fadein 3s forwards;
-  animation: fadein 3s forwards;
+  -webkit-animation: fadein 2s forwards;
+  animation: fadein 2s forwards;
 }
 
 .assiette2:nth-child(1) {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .assiette2:nth-child(2) {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .assiette2:nth-child(3) {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .assiette2:nth-child(4) {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .assiette2:nth-child(5) {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 @-webkit-keyframes fadein {
