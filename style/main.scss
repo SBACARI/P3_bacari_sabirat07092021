@@ -418,6 +418,8 @@ a{
                     margin-block-end: 1.33em;
                     margin-block-start: 0px;
                     margin-inline-end: 0px;
+                    white-space: nowrap;
+             
                     }
 
             .title{
@@ -496,6 +498,16 @@ a{
             }
             .assiette2{
                 width: calc(100% - 180px);
+                div{
+                    width: 90%;
+               
+                }
+                h3,p{
+                 white-space: nowrap;
+                overflow: hidden;
+                 text-overflow: ellipsis;
+                width: 80%;
+                }
             }
         }
 }
