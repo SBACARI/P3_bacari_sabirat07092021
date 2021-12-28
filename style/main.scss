@@ -463,8 +463,8 @@ a{
         align-items: center;
         width: 100%;
         transition: width 1s;
-        div{
-            width: 100%;
+        div:nth-child(1){
+            width: 90%;
             transition: width 1s;
         }
         
@@ -502,7 +502,7 @@ a{
             }
             .assiette2{
                 width: calc(100% - 180px);
-                div{
+                div:nth-child(1){
                     width: 90%;
                
                 }
