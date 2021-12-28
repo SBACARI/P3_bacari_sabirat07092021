@@ -463,6 +463,10 @@ a{
         align-items: center;
         width: 100%;
         transition: width 1s;
+        div{
+            width: 100%;
+            transition: width 1s;
+        }
         
         }
     

@@ -427,6 +427,10 @@ footer .list {
   width: 100%;
   transition: width 1s;
 }
+.plat-list .assiette .assiette2 div {
+  width: 100%;
+  transition: width 1s;
+}
 .plat-list .assiette .prix {
   margin-right: 15px;
   color: black;
